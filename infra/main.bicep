@@ -37,6 +37,7 @@ param vmAdminPassword string
 @description('The tags that wil be associated to the resources')
 param tags object = {
   environment: 'tdd-asr-demo'
+  'SecurityControl': 'Ignore'
 }
 
 @description('Creates a new GUID to create uniqueness for resources')
